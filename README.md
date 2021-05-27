@@ -24,3 +24,5 @@ fixed getbyv()
 Fix CHANGELOGS.md
 # Version 1.9.4
 Fix lots of thing (see code for yourself)
+
+# [Docs](https://pypiapijson.readthedocs.io/en/latest/)
