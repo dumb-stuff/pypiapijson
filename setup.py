@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 classifiers = []
  
 setup(
-  name='pypiapijson',
-  version='1.9.5'​,
+  name="pypiapijson", 
+  version="1.9.5"​,
   description='A client for connect to pypi.org api to retrieve the python packages!',
   long_description=open('README.md').read() + "\n# Read the doc in github that we provided link too!\n# Also new version is more good thing too!",
   long_description_content_type='text/markdown',
