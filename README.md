@@ -24,5 +24,6 @@ fixed getbyv()
 Fix CHANGELOGS.md
 # Version 1.9.4
 Fix lots of thing (see code for yourself)
-
+# Version 1.9.5
+Make status()​ not asynchronous now.
 # [Docs](https://pypiapijson.readthedocs.io/en/latest/)
