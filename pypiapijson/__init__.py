@@ -47,5 +47,5 @@ def status():
             raise ErrorToGetStatus("I could not get stats")
       return json.loads(content.decode("utf-8"))
 def helpme():
-      print("Hello!\nUsage:\nget(packagename : string)\nGet information the paclage name that you provided and get the information in lastest version if there\'s no package it\'ll return none and raise error\ngetbyv(packagename : string,version : float or string) Do everything like get but you\'ll need to specify version the package have if there\'s wrong return None and raise error\nstatus()This will retrieve what package take most space and this fucntion is asynchronous function so run it with asyncio or await it.")
+      print("Hello!\nUsage:\nget(packagename : string)\nGet information the paclage name that you provided and get the information in lastest version if there\'s no package it\'ll return none and raise error\ngetbyv(packagename : string,version : float or string) Do everything like get but you\'ll need to specify version the package have if there\'s wrong return None and raise error\nstatus()This will retrieve what package take most space.")
 print("Hello! Want to get help what available function? execute helpme()\n:D")
