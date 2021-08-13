@@ -1,4 +1,5 @@
 from . import asyncs
+from types import Optional
 """Hello! If you are seeing this. Welcome to built in help!"""
 
 class CannotFindPackage(Exception):
@@ -31,7 +32,7 @@ def get(name):
 		raise CannotFindPackage("Error occured!\nI can\'t get the package info maybe check your typo or check your connection if you check it was all right, pypi api may gone maintenance.")
 	else:
 		return json.loads(r.decode("utf-8"))
-def getbyv(name,ver:str):
+def getbyv(name,ver:Optional[str,int]):
 	"""Get the information about package with that name provided if that was not exist or pypi api down then say error"""
 	try:
 		re = urllib.request.Request(f"https://pypi.org/pypi/{name}/{ver}/json")

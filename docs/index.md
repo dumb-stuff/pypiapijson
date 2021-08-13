@@ -19,5 +19,16 @@ async with pypiapijson.asyncs.get("Flask") # ❌ **NOT** Correct way to use it
 ```py
 pypiapijson.get(name : str)
 ```
-This function get the package by the name if it isn't exist it return None
+This function get the package by the name and get latest version of package if it isn't exist it return None in async and raise in blocking code
+```py
+pypiapijson.getbyv(name : str , ver : Optional[str,int])
 ```
+This function do like `get` but need version of package 
+
+```py
+pypiapijson..status()
+```
+This not even take an argument it just get statistic like what package use most spaces etc.
+#
+e
+#
