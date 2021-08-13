@@ -2,7 +2,9 @@ MANIFEST.in
 README.md
 setup.cfg
 setup.py
+testfile.py
 pypiapijson/__init__.py
+pypiapijson/asyncs.py
 pypiapijson/testfile.py
 pypiapijson.egg-info/PKG-INFO
 pypiapijson.egg-info/SOURCES.txt
