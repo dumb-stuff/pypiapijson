@@ -8,7 +8,7 @@ setup(
 	description='A client for connect to pypi.org api to retrieve the python packages!',
 	long_description=open('README.md').read(),
 	long_description_content_type='text/markdown',
-	url='https://github.com/I-make-python-module-and-bots-stuff/pypiapijson',  
+	url='https://github.com/dumb-stuff/pypiapijson',  
 	author='Rukchad Wongprayoon',
 	author_email='mooping3roblox@gmail.com',
 	license='MIT', 
