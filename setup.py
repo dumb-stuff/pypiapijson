@@ -4,7 +4,7 @@ classifiers = []
  
 setup(
 	name='pypiapijson',
-	version='2.2',
+	version='2.3',
 	description='A client for connect to pypi.org api to retrieve the python packages!',
 	long_description=open('README.md').read(),
 	long_description_content_type='text/markdown',
