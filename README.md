@@ -2,5 +2,5 @@
 
 [Docs](https://pypiapijson.biomooping.tk)
 #
-
-1.9.8 REWORK ON ANYTHING AAAAAAAAAAAAAAAAAa also add asyncs for asynchronous fetch
+Delete optional type it should stable now.<br>
+also read docs for how you use api data.
