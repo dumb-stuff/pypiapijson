@@ -4,7 +4,7 @@ classifiers = []
  
 setup(
 	name='pypiapijson',
-	version='2.3',
+	version='2.4',
 	description='A client for connect to pypi.org api to retrieve the python packages!',
 	long_description=open('README.md').read(),
 	long_description_content_type='text/markdown',
@@ -15,7 +15,7 @@ setup(
 	classifiers=classifiers,
 	keywords='Tools', 
 	packages=find_packages(),
-	install_requires=["aiohttp"],
+	install_requires=["aiohttp","aiodns","cchardet","brotli"],
 	project_urls={
 		"Documentation":"https://pypiapijson.biomooping.tk"
 	}
