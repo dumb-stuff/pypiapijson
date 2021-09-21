@@ -11,7 +11,7 @@ async def get(name):
 	"""Get the information about package with that name provided if that was not exist or pypi api down then say error"""
 	thing = await getter(url=f"https://pypi.org/pypi/{name}/json")
 	return await thing.json() if thing.status == 200 else None
-async def getbyv(name,ver:Optional[str,int]):
+async def getbyv(name,ver:str):
 	"""Get the information about package with that name provided if that was not exist or pypi api down then say error"""
 	thing = await getter(url=f"https://pypi.com/pypi/{name}/{ver}/json")
 	return await thing.json() if thing.status == 200 else None
