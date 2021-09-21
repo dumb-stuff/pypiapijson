@@ -1,5 +1,4 @@
 import aiohttp
-from typing import Optional
 async def getter(url,headers=False):
 	async with aiohttp.ClientSession() as session:
 		if headers:
