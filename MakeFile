@@ -1,0 +1,5 @@
+setup:
+	pip install aiohttp[speedups]
+
+install:
+	setup.py install
